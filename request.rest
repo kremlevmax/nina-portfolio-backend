@@ -1,1 +1,4 @@
-GET http://localhost:1337/api/albums?populate=*
+GET http://localhost:1337/api/projects?populate=*
+
+###
+GET http://localhost:1337/api/main-page?populate=*

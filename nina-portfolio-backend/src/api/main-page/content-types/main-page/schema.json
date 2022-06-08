@@ -1,11 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "albums",
+  "kind": "singleType",
+  "collectionName": "main_pages",
   "info": {
-    "singularName": "album",
-    "pluralName": "albums",
-    "displayName": "album",
-    "description": ""
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "main-page"
   },
   "options": {
     "draftAndPublish": true
@@ -19,15 +18,14 @@
       "type": "richtext"
     },
     "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

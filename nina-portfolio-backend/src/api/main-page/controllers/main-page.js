@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  album controller
+ *  main-page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::album.album');
+module.exports = createCoreController('api::main-page.main-page');
