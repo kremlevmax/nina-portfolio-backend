@@ -1,4 +1,4 @@
-GET http://localhost:1337/api/projects?populate=*
+GET http://localhost:1337/api/projects/1?populate=*
 
 ###
 GET http://localhost:1337/api/main-page?populate=*

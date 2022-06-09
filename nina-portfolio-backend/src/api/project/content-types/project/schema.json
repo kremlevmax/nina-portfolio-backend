@@ -15,13 +15,14 @@
     "title": {
       "type": "string"
     },
+    "description": {
+      "type": "string"
+    },
     "photos": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::photo.photo"
-    },
-    "description": {
-      "type": "string"
+      "target": "api::photo.photo",
+      "mappedBy": "project"
     }
   }
 }
