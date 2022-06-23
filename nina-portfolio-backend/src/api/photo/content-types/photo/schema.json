@@ -26,14 +26,17 @@
     "description": {
       "type": "string"
     },
-    "title": {
-      "type": "string"
-    },
     "project": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::project.project",
       "inversedBy": "photos"
+    },
+    "description_ru": {
+      "type": "string"
+    },
+    "description_skh": {
+      "type": "string"
     }
   }
 }
